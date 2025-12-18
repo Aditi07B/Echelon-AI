@@ -189,14 +189,18 @@ Made with love ❤️
 ---
 
 ## 🏗 **Architecture Diagram**
+<img width="512" height="371" alt="flow chart" src="https://github.com/user-attachments/assets/1fef14d8-3ba2-4a64-bc20-d0bb24273821" />
 
 ---
 
 ## 🔄 **Flow Chart**
+<img width="512" height="339" alt="flow_chart" src="https://github.com/user-attachments/assets/161d8e8d-1572-46df-8a59-0ebc35ce10bb" />
 
 ---
 
 ## 🖥 **Screenshots**
+<img width="512" height="232" alt="unamed" src="https://github.com/user-attachments/assets/81c541b3-f601-4050-a69b-4859793332b7" />
+<img width="512" height="232" alt="unamed" src="https://github.com/user-attachments/assets/a9d3986b-7008-4e41-9591-05b27e663a0b" />
 
 ---
 
