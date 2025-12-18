@@ -70,102 +70,6 @@ QUICKSTART.md
 README_API.md
 ```
 
-🔁 System Architecture & Workflow
-How It Works
-
-Data Ingest
-Excel telemetry → load_vehicle_timeseries → raw_metrics per vehicle
-
-LangGraph Workflow Execution
-ingest → anomaly detection → diagnosis → customer engagement → service scheduling → feedback → manufacturing insights
-
-Backend APIs
-FastAPI runs workflows and exposes vehicle-level and fleet-level insights
-
-Frontend Visualization
-Next.js dashboard consumes APIs via proxy routes and renders fleet status, workflows, and analytics
-
-🚀 Getting Started
-Backend Setup
-pip install -r requirements.txt
-python api_server.py
-
-
-Runs at http://localhost:8000
-
-Requires AgenticAI_Final_Format_Dataset.xlsx in the project root
-
-Frontend Setup
-cd frontend
-npm install
-npm run dev
-
-
-Runs at http://localhost:3000
-
-Uses Next.js API routes to proxy requests to FastAPI
-
-Set API_BASE_URL if backend URL differs
-
-🔌 Backend APIs
-
-GET / — Health check
-
-GET /api/vehicles — Workflow results for all vehicles
-
-GET /api/vehicles/{vehicle_id} — Single vehicle workflow
-
-GET /api/stats — Aggregated fleet metrics
-
-GET /api/manufacturing — Manufacturing and OEM insights
-
-📊 Frontend Dashboard
-Available Screens
-
-Vehicle Dashboard
-Fleet cards showing anomalies, diagnosis, service schedules, and feedback
-
-Workflow Visualization
-LangGraph pipeline with step-by-step execution status
-
-Analytics & Insights
-Charts (Recharts) and manufacturing insights tables
-
-🧠 Tech Stack
-
-Python / FastAPI — Backend APIs and orchestration
-
-LangGraph — Multi-agent workflow framework
-
-PyTorch — LSTM autoencoder for anomaly detection
-
-Pandas / NumPy — Telemetry data processing
-
-Next.js — Frontend framework
-
-Tailwind CSS — EY black/yellow UI theme
-
-Recharts — Data visualization
-
-Hi, We are the makers of EY Agentic AI! 👋
-About us
-
-Meet the creators behind EY Agentic AI — Automotive Aftersales Predictive Maintenance — Aditi A, Aditi B, Arnav and Nikhil.
-We are a passionate team focused on building intelligent, production-grade AI systems that solve real-world industry problems. This project reflects our interest in agentic AI, predictive analytics, and scalable system design, bringing together multi-agent orchestration, deep learning, and modern full-stack development.
-
-Our goal is to design systems that move beyond reactive workflows and enable proactive, explainable, and data-driven decision-making for enterprises. Through this project, we explore how autonomous agents and temporal intelligence can transform traditional automotive aftersales into a smarter, connected ecosystem.
-
-Aditi - Aditi Agale
-
-Aditi - Aditi Bambal
-
-Arnav - Arnav Parekar
-
-Nikhil - Nikhil Parkar
-
-Happy coding 💯
-
-Made with love ❤️
 ## 🔁 **System Architecture & Workflow**
 
 ## **How It Works**
@@ -268,10 +172,10 @@ We are a passionate team focused on building **intelligent, production-grade AI 
 
 Our goal is to move beyond **reactive workflows** and enable **proactive, explainable, and data-driven decision-making** for enterprises. Through this project, we explore how **autonomous agents** and **temporal intelligence** can transform traditional automotive aftersales into a smarter, connected ecosystem.
 
-- **Aditi — Aditi Agale**
-- **Aditi — Aditi Bambal**
-- **Arnav — Arnav Parekar**
-- **Nikhil — Nikhil Parkar**
+- Aditi - [Aditi Agale](https://www.linkedin.com/in/aditi-agale-981372289/) 
+- Aditi - [Aditi Bambal](https://www.linkedin.com/in/aditi-bambal-06640328b/) 
+- Arnav - [Arnav Parekar](https://linkedin.com/in/arnav-parekar-b55786287/)
+- Nikhil - [Nikhil Parkar](https://www.linkedin.com/in/nikhil-parkar-49b600274/)
 
 ---
 
